@@ -1,0 +1,121 @@
+/* General styling for the calendar page */
+.calendar-page {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(31, 57, 86);
+  display: inline-block;
+}
+
+.create-event-button {
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+
+.create-event-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for event creation form */
+.event-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.event-form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.event-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.event-form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.event-form button:hover {
+  background-color: #218838;
+}
+
+/* Logout button styling */
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(52, 88, 139);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: rgb(31, 57, 86);
+}
+
+/* Main container for the calendars */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+}
+
+/* Main calendar styling */
+.main-calendar {
+  flex: 3;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Small Calendar */
+.small-calendar {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
